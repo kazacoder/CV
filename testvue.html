@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <title>test Vue</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="theme.css">
 </head>
 <body>
-<div id="appVue">
-  <h1> {{ message }} </h1>
-  <button @click="count++">
+<div id="appVue" class="container">
+  <h1 style="color: #cccccc; text-align: center; width: 25%"> {{ message }} </h1>
+  <button @click="count++" class="btn primary">
     Count is: {{ count }}
   </button>
-  <button @click="count--">
+  <button @click="count--" class="btn danger">
     Count is: {{ count }}
   </button>
 </div>
