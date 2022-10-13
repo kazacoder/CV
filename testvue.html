@@ -7,17 +7,19 @@
   <link rel="stylesheet" href="theme.css">
 </head>
 <body>
-<div id="appVue" class="container" style="background: #cccccc; text-align: center; width: 30%">
-  <h1 style="text-align: center"> {{ message }} </h1>
+<div id="appVue" class="container">
+  <div class="card">
+    <h1 style="text-align: center"> {{ message }} </h1>
 
-  <h2> Count is: {{ count }}</h2>
-  <button @click="count++" class="btn primary">
-    Увеличить
-    <br>
-  </button>
-  <button @click="count--" class="btn danger">
-    Уменьшить
-  </button>
+    <h2> Count is: {{ count }}</h2>
+    <button @click="count++" class="btn primary">
+      Увеличить
+      <br>
+    </button>
+    <button @click="count--" class="btn danger">
+      Уменьшить
+    </button>
+  </div>
 </div>
 <script src="testvue.js"></script>
 </body>
