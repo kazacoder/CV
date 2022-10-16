@@ -40,18 +40,18 @@
             <h3>Заметок пока нет. Добавьте первую</h3>
         </div>
     </div>
-</div>
-<div id="appVue" class="container pt-5">
-    <div class="card center">
-        <h1 style="text-align: center"> {{ message }} </h1>
-        <h2> Count is: {{ count }}</h2>
-        <div>
-            <button @click="count++" class="btn primary">Увеличить</button>
-            <button @click="count = count - 1" class="btn danger">Уменьшить</button>
+
+    <div class="container pt-5">
+        <div class="card center">
+            <h1 style="text-align: center"> {{ message }} </h1>
+            <h2> Count is: {{ count }}</h2>
+            <div>
+                <button @click="count++" class="btn primary">Увеличить</button>
+                <button @click="count = count - 1" class="btn danger">Уменьшить</button>
+            </div>
         </div>
     </div>
 </div>
-
 <a href="index.html" type="button" class="btn btn-primary">Home</a>
 <script src="testvue.js"></script>
 </body>

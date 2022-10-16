@@ -6,7 +6,9 @@ createApp({
             title: 'Список заметок',
             placeholderString: 'Введите название заметки',
             inputValue: '',
-            notes: ['Заметка 1', 'Заметка 2']
+            notes: ['Заметка 1', 'Заметка 2'],
+            message: 'Hello Vue!',
+            count: 0
         }
     },
     methods: {
@@ -42,12 +44,12 @@ createApp({
     }
 }).mount('#appVueInput')
 
-createApp({
-    data() {
-        return {
-            message: 'Hello Vue!',
-            count: 0
-        }
-    }
-}).mount('#appVue')
+// createApp({
+//     data() {
+//         return {
+//             message: 'Hello Vue!',
+//             count: 0
+//         }
+//     }
+// }).mount('#appVue')
 
