@@ -9,7 +9,7 @@ createApp({
             notes: ['Заметка 1', 'Заметка 2'],
             message: 'Hello Vue!',
             count: 0,
-            plaсeHolderVue: 'Введите текст'
+            placeHolderVue: 'Введите текст'
         }
     },
     methods: {
